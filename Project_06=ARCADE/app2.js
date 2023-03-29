@@ -206,7 +206,7 @@ function tick(){
   console.log("tick", tick)
 }
 
-// listeners
+
 const prompt = document.querySelector('#prompt');
 prompt.addEventListener('click', function({target}){
   if(target.className !== 'start-game') return;
@@ -216,7 +216,7 @@ prompt.addEventListener('click', function({target}){
   addAndRenderAll();
 })
 
-// arrow listeners
+
 document.onkeydown = function(event) {
   event.preventDefault();
   // prevent unnecessary/unwanted functionality on other keys
