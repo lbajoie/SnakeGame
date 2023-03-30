@@ -16,10 +16,10 @@ h2{
 
 body {
     height: 100vh;
-    
+    background-image:url();
     display: flex;
     flex-direction: column;
-    background-color: rgb(43, 215, 135);
+    background-color: rgb(11, 138, 201);
     justify-content: space-around;
     align-items: center;            
 }
@@ -48,7 +48,8 @@ main {
 
 
 .cell.snake {
-    background-image: url(galaxy.jpg)
+    background-image: url(galaxy.jpg);
+    background-size: contain;
 }
 
 .cell.apple {
@@ -65,7 +66,7 @@ button {
 }
 
 .game-over {
-    color: pink;
+    color: red;
     background-color:rgb(255, 244, 127);
     border-radius: 0.2rem;
     border: .5px solid blue;

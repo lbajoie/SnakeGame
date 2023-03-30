@@ -47,7 +47,7 @@ function buildInitialState() {
   gameState.board = board();
   gameState.phase = NEW;
 
-  gameState.speed = 300;
+  gameState.speed = 150;
   gameState.interval = null;
 
 
